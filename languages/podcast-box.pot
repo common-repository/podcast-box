@@ -1,0 +1,990 @@
+# Copyright (C) 2022 podcast-box
+# This file is distributed under the same license as the podcast-box package.
+msgid ""
+msgstr ""
+"Project-Id-Version: podcast-box\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: podcast-box\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plugin.php:18
+msgid "You can't access this page"
+msgstr ""
+
+#: includes/class-cpt.php:83, includes/class-cpt.php:84
+msgid "Categories"
+msgstr ""
+
+#: includes/class-cpt.php:83
+msgid "Category"
+msgstr ""
+
+#: includes/class-cpt.php:105, includes/class-cpt.php:105, templates/country-list.php:8, templates/country-list.php:14
+msgid "Countries"
+msgstr ""
+
+#: includes/class-cpt.php:105
+msgid "Country"
+msgstr ""
+
+#: includes/class-cpt.php:127, includes/class-cpt.php:160
+msgid "All %s"
+msgstr ""
+
+#: includes/class-cpt.php:129, includes/class-cpt.php:130, includes/class-cpt.php:165
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-cpt.php:131, includes/class-cpt.php:163
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-cpt.php:132
+msgid "New %s"
+msgstr ""
+
+#: includes/class-cpt.php:133
+msgid "View %s"
+msgstr ""
+
+#: includes/class-cpt.php:134, includes/class-cpt.php:159
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-cpt.php:135
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-cpt.php:136
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/class-cpt.php:137, includes/class-cpt.php:162
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-cpt.php:157
+msgctxt "taxonomy general name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:158
+msgctxt "taxonomy singular name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:161
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-cpt.php:164
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-cpt.php:166
+msgid "New %s Name"
+msgstr ""
+
+#: includes/class-enqueue.php:133
+msgid "You need to select countries, before run the import"
+msgstr ""
+
+#: includes/class-enqueue.php:134
+msgid "Please wait, Import is running..."
+msgstr ""
+
+#: includes/class-enqueue.php:135
+msgid "No country found."
+msgstr ""
+
+#: includes/class-enqueue.php:136
+msgid "Update"
+msgstr ""
+
+#: includes/class-enqueue.php:137
+msgid "Updating"
+msgstr ""
+
+#: includes/class-enqueue.php:138
+msgid "Imported: "
+msgstr ""
+
+#: includes/class-enqueue.php:139
+msgid "Total station of the country"
+msgstr ""
+
+#: includes/class-enqueue.php:140
+msgid "Premium"
+msgstr ""
+
+#: includes/class-enqueue.php:141
+msgid "Search country to import"
+msgstr ""
+
+#: includes/class-enqueue.php:142
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/class-enqueue.php:143
+msgid "to access total 5000+ podcasts from 68+ countries."
+msgstr ""
+
+#: includes/class-enqueue.php:144
+msgid "Selected Countries"
+msgstr ""
+
+#: includes/class-enqueue.php:145
+msgid "Selected:"
+msgstr ""
+
+#: includes/class-enqueue.php:146
+msgid "Remaining:"
+msgstr ""
+
+#: includes/class-enqueue.php:147
+msgid "Total Station:"
+msgstr ""
+
+#: includes/class-enqueue.php:148, includes/admin/views/import-podcasts.php:81
+msgid "Import More"
+msgstr ""
+
+#: includes/class-enqueue.php:149
+msgid "Run Importer"
+msgstr ""
+
+#: includes/class-enqueue.php:150
+msgid "Hide Radio Player"
+msgstr ""
+
+#: includes/class-enqueue.php:151
+msgid "Play Count - How many times stations are played in a day."
+msgstr ""
+
+#: includes/class-episode-importer.php:276
+msgid "Podcast Feed Error! Please use a valid RSS feed URL."
+msgstr ""
+
+#: includes/class-episode-importer.php:263
+msgid "Success! Imported "
+msgstr ""
+
+#: includes/class-episode-importer.php:264
+msgid " out of "
+msgstr ""
+
+#: includes/class-episode-importer.php:264
+msgid " episodes"
+msgstr ""
+
+#: includes/class-episode-importer.php:260
+msgid "Error! Your feed does not contain any episodes."
+msgstr ""
+
+#: includes/class-episode-importer.php:254
+msgid "No new episodes imported, all episodes already existing in WordPress!"
+msgstr ""
+
+#: includes/class-episode-importer.php:257
+msgid "If you have existing draft, private or trashed posts with the same title as your episodes, delete those and run the importer again"
+msgstr ""
+
+#: includes/class-form-handler.php:46
+msgid "No Post."
+msgstr ""
+
+#: includes/class-form-handler.php:164
+msgid "No podcast found"
+msgstr ""
+
+#: includes/class-form-handler.php:199
+msgid "No episode found."
+msgstr ""
+
+#: includes/class-hooks.php:225, includes/functions.php:561
+msgid " - Podcasts"
+msgstr ""
+
+#: includes/class-hooks.php:268
+msgid "Playing - %s"
+msgstr ""
+
+#: includes/class-install.php:31, templates/related.php:54
+msgid "Podcasts"
+msgstr ""
+
+#: includes/class-widget.php:17
+msgid "Display podcast episode player."
+msgstr ""
+
+#: includes/class-widget.php:20
+msgid "Podcast Player"
+msgstr ""
+
+#: includes/class-widget.php:52, includes/class-widget.php:151
+msgid "Title:"
+msgstr ""
+
+#: includes/class-widget.php:59
+msgid "Podcast:"
+msgstr ""
+
+#: includes/class-widget.php:69
+msgid "Search podcasts by entering minimum 1 characters."
+msgstr ""
+
+#: includes/class-widget.php:118
+msgid "List all the radio station countries."
+msgstr ""
+
+#: includes/class-widget.php:121
+msgid "Podcast Country List"
+msgstr ""
+
+#: includes/functions.php:734
+msgid "Page"
+msgstr ""
+
+#: includes/functions.php:753
+msgid "Go to page"
+msgstr ""
+
+#: includes/functions.php:857
+msgid "Show Radio Player"
+msgstr ""
+
+#: includes/functions.php:858
+msgid "Pause"
+msgstr ""
+
+#: includes/functions.php:859
+msgid "Sending..."
+msgstr ""
+
+#: includes/functions.php:860
+msgid "Send Message"
+msgstr ""
+
+#: templates/country-list.php:19
+msgid "Search country"
+msgstr ""
+
+#: templates/country-list.php:45
+msgid "No Country added yet!"
+msgstr ""
+
+#: templates/listing-top.php:50
+msgid "Change country"
+msgstr ""
+
+#: templates/listing-top.php:53
+msgid "Change Country"
+msgstr ""
+
+#: templates/listing-top.php:54, templates/search-2.php:44
+msgid "Select Country"
+msgstr ""
+
+#: templates/loop-episode.php:43, templates/loop-episode.php:46, templates/single-episode.php:105
+msgid "Download"
+msgstr ""
+
+#: templates/loop-podcast.php:74
+msgid "Latest Episode"
+msgstr ""
+
+#: templates/loop-podcast.php:95
+msgid "View All"
+msgstr ""
+
+#: templates/player.php:71
+msgid "No episodes found for the podcast."
+msgstr ""
+
+#: templates/player.php:139
+msgid "Previous Episode"
+msgstr ""
+
+#: templates/player.php:149
+msgid "Rewind 10 seconds"
+msgstr ""
+
+#: templates/player.php:169
+msgid "Forward 15 seconds"
+msgstr ""
+
+#: templates/player.php:180
+msgid "Next Episode"
+msgstr ""
+
+#: templates/related.php:54
+msgid "Related"
+msgstr ""
+
+#: templates/related.php:55
+msgid "Episodes"
+msgstr ""
+
+#: templates/search-1.php:9
+msgid "Search Podcast"
+msgstr ""
+
+#: templates/search-1.php:9
+msgid "Search episodes."
+msgstr ""
+
+#: templates/search-1.php:27, templates/search-1.php:43, templates/search-2.php:86
+msgid "Search"
+msgstr ""
+
+#: templates/search-2.php:28, templates/search-2.php:32
+msgid "Search podcasts"
+msgstr ""
+
+#: templates/search-2.php:39
+msgid "Enter podcast title"
+msgstr ""
+
+#: templates/search-2.php:43
+msgid "Select country"
+msgstr ""
+
+#: templates/search-2.php:60, templates/search-2.php:61
+msgid "Select category"
+msgstr ""
+
+#: templates/single-podcast.php:92
+msgid "ABOUT THIS PODCAST"
+msgstr ""
+
+#: templates/single-podcast.php:149, includes/admin/class-metabox.php:105
+msgid "Latest Episodes"
+msgstr ""
+
+#: templates/single-podcast.php:154
+msgid "Sort"
+msgstr ""
+
+#: templates/single-podcast.php:156
+msgid "Newer First"
+msgstr ""
+
+#: templates/single-podcast.php:157
+msgid "Older First"
+msgstr ""
+
+#: includes/admin/class-admin.php:36
+msgid "Podcasts listing"
+msgstr ""
+
+#: includes/admin/class-admin.php:53
+msgid "All Countries"
+msgstr ""
+
+#: includes/admin/class-admin.php:172, includes/admin/class-admin.php:172, includes/admin/views/import-podcasts.php:13, includes/admin/views/get-started/import.php:1, includes/admin/views/get-started/index.php:13
+msgid "Import Podcasts"
+msgstr ""
+
+#: includes/admin/class-admin.php:176, includes/admin/class-admin.php:176
+msgid "Get Started"
+msgstr ""
+
+#: includes/admin/class-metabox.php:93, includes/admin/class-metabox.php:96
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-metabox.php:99
+msgid "Podcast Information"
+msgstr ""
+
+#: includes/admin/class-metabox.php:102
+msgid "Episode Information"
+msgstr ""
+
+#: includes/admin/class-settings-api.php:456
+msgid "Choose File"
+msgstr ""
+
+#: includes/admin/class-settings.php:28
+msgid "%s General Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:32
+msgid "%s Display Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:36
+msgid "%s Image Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:40
+msgid "%s Player Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:44
+msgid "%s Color Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:52
+msgid "Podcast Listing Page :"
+msgstr ""
+
+#: includes/admin/class-settings.php:53
+msgid "Select the page which contains the [podcast_box_listing] shortcode for the podcast listing."
+msgstr ""
+
+#: includes/admin/class-settings.php:60
+msgid "Continues Import  :"
+msgstr ""
+
+#: includes/admin/class-settings.php:61
+msgid "If ON, the podcasts episodes will be imported continuously."
+msgstr ""
+
+#: includes/admin/class-settings.php:68
+msgid "Delete Data on Plugin Uninstalling :"
+msgstr ""
+
+#: includes/admin/class-settings.php:69
+msgid "Turn on to delete all the data (podcasts, episodes, settings) on uninstalling of this plugin."
+msgstr ""
+
+#: includes/admin/class-settings.php:81
+msgid "Podcast Listing"
+msgstr ""
+
+#: includes/admin/class-settings.php:86
+msgid "Podcasts Per Page :"
+msgstr ""
+
+#: includes/admin/class-settings.php:87
+msgid "Enter the number of how many podcasts will be displayed in the listing page."
+msgstr ""
+
+#: includes/admin/class-settings.php:91, includes/admin/class-settings.php:123, includes/admin/class-settings.php:187
+msgid "5"
+msgstr ""
+
+#: includes/admin/class-settings.php:92, includes/admin/class-settings.php:188
+msgid "10"
+msgstr ""
+
+#: includes/admin/class-settings.php:93, includes/admin/class-settings.php:189
+msgid "15"
+msgstr ""
+
+#: includes/admin/class-settings.php:94, includes/admin/class-settings.php:190
+msgid "20"
+msgstr ""
+
+#: includes/admin/class-settings.php:95, includes/admin/class-settings.php:191
+msgid "30"
+msgstr ""
+
+#: includes/admin/class-settings.php:96, includes/admin/class-settings.php:192
+msgid "40"
+msgstr ""
+
+#: includes/admin/class-settings.php:97, includes/admin/class-settings.php:193
+msgid "50"
+msgstr ""
+
+#: includes/admin/class-settings.php:103
+msgid "Podcast Listing View :"
+msgstr ""
+
+#: includes/admin/class-settings.php:104
+msgid "Choose the podcast listing view. Left (List View), Right (Grid View)"
+msgstr ""
+
+#: includes/admin/class-settings.php:115
+msgid "Grid Column :"
+msgstr ""
+
+#: includes/admin/class-settings.php:116
+msgid "Select the column number in the grid view. (Min:2 - Max: 6)"
+msgstr ""
+
+#: includes/admin/class-settings.php:120
+msgid "2"
+msgstr ""
+
+#: includes/admin/class-settings.php:121
+msgid "3"
+msgstr ""
+
+#: includes/admin/class-settings.php:122
+msgid "4"
+msgstr ""
+
+#: includes/admin/class-settings.php:124
+msgid "6"
+msgstr ""
+
+#: includes/admin/class-settings.php:130
+msgid "Podcast Description :"
+msgstr ""
+
+#: includes/admin/class-settings.php:131
+msgid "Show / hide the short podcast description in the podcast listing."
+msgstr ""
+
+#: includes/admin/class-settings.php:138
+msgid "Latest Episode :"
+msgstr ""
+
+#: includes/admin/class-settings.php:139
+msgid "Show / hide the latest episode in the podcast listing."
+msgstr ""
+
+#: includes/admin/class-settings.php:146
+msgid "IP Based Listing :"
+msgstr ""
+
+#: includes/admin/class-settings.php:147
+msgid "If ON, visitors will see only their country’s podcasts on the listing page on the first visit <br> Else they will see all the podcasts."
+msgstr ""
+
+#: includes/admin/class-settings.php:155
+msgid "Show Podcast Search Bar :"
+msgstr ""
+
+#: includes/admin/class-settings.php:156
+msgid "Show/ hide the podcast search bar in the listing  page."
+msgstr ""
+
+#: includes/admin/class-settings.php:163
+msgid "Search Form Style :"
+msgstr ""
+
+#: includes/admin/class-settings.php:164
+msgid "Choose the podcast search form style"
+msgstr ""
+
+#: includes/admin/class-settings.php:176
+msgid "Episode Listing"
+msgstr ""
+
+#: includes/admin/class-settings.php:181
+msgid "Episodes Per Page :"
+msgstr ""
+
+#: includes/admin/class-settings.php:182
+msgid "Enter the number of how many episodes will be displayed in the single podcast page."
+msgstr ""
+
+#: includes/admin/class-settings.php:199
+msgid "Download Button :"
+msgstr ""
+
+#: includes/admin/class-settings.php:200
+msgid "Show / hide the episode download button in the podcast/ episode listing."
+msgstr ""
+
+#: includes/admin/class-settings.php:207
+msgid "Show Episode Description :"
+msgstr ""
+
+#: includes/admin/class-settings.php:208
+msgid "Show / hide the short episode description in the episode listing."
+msgstr ""
+
+#: includes/admin/class-settings.php:215
+msgid "Episode Search Bar :"
+msgstr ""
+
+#: includes/admin/class-settings.php:216
+msgid "Show/ hide the episodes search bar in the single podcast  page."
+msgstr ""
+
+#: includes/admin/class-settings.php:224
+msgid "Single Podcast/ Episode Page"
+msgstr ""
+
+#: includes/admin/class-settings.php:229
+msgid "Next/ Previous  :"
+msgstr ""
+
+#: includes/admin/class-settings.php:230
+msgid "Show/ hide the next-previous (podcast/ episode) pagination at bottom of the single (podcast/ episode) page."
+msgstr ""
+
+#: includes/admin/class-settings.php:237
+msgid "Related (Podcasts/ Episodes) :"
+msgstr ""
+
+#: includes/admin/class-settings.php:238
+msgid "Show/ hide the related (podcasts/ episodes) section in the single (podcast/ episode) page."
+msgstr ""
+
+#: includes/admin/class-settings.php:248
+msgid "Listing Thumbnail Size :"
+msgstr ""
+
+#: includes/admin/class-settings.php:249
+msgid "Customize the podcast/ episode listing  image size."
+msgstr ""
+
+#: includes/admin/class-settings.php:253, includes/admin/class-settings.php:284, includes/admin/class-settings.php:322
+msgid "Default"
+msgstr ""
+
+#: includes/admin/class-settings.php:254, includes/admin/class-settings.php:285
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/class-settings.php:259
+msgid "Listing Thumbnail Width :"
+msgstr ""
+
+#: includes/admin/class-settings.php:260
+msgid "Set the thumbnail width in the podcast/ episode listing (px)."
+msgstr ""
+
+#: includes/admin/class-settings.php:269
+msgid "Listing Thumbnail Height :"
+msgstr ""
+
+#: includes/admin/class-settings.php:270
+msgid "Set the thumbnail height in the podcast/ episode listing (px)."
+msgstr ""
+
+#: includes/admin/class-settings.php:279
+msgid "Player Thumbnail Size :"
+msgstr ""
+
+#: includes/admin/class-settings.php:280
+msgid "Customize the podcast/ episode player image size in the (shortcode/ popup) player."
+msgstr ""
+
+#: includes/admin/class-settings.php:290
+msgid "Player Thumbnail Width :"
+msgstr ""
+
+#: includes/admin/class-settings.php:291
+msgid "Set the thumbnail width in the podcast episode player (px)."
+msgstr ""
+
+#: includes/admin/class-settings.php:300
+msgid "Player Thumbnail Height :"
+msgstr ""
+
+#: includes/admin/class-settings.php:301
+msgid "Set the thumbnail height in the podcast episode player (px)."
+msgstr ""
+
+#: includes/admin/class-settings.php:313
+msgid "Player Type :"
+msgstr ""
+
+#: includes/admin/class-settings.php:323
+msgid "Popup %s"
+msgstr ""
+
+#: includes/admin/class-settings.php:329
+msgid "Customize Popup Size? :"
+msgstr ""
+
+#: includes/admin/class-settings.php:330
+msgid "Want to customize the popup player width/ height."
+msgstr ""
+
+#: includes/admin/class-settings.php:336
+msgid "Popup Player Width :"
+msgstr ""
+
+#: includes/admin/class-settings.php:337
+msgid "Set the popup player width(px)."
+msgstr ""
+
+#: includes/admin/class-settings.php:346
+msgid "Popup Player Height :"
+msgstr ""
+
+#: includes/admin/class-settings.php:347
+msgid "Set the popup player height (px)."
+msgstr ""
+
+#: includes/admin/class-settings.php:365
+msgid "Player Volume :"
+msgstr ""
+
+#: includes/admin/class-settings.php:366
+msgid "Set the player default volume."
+msgstr ""
+
+#: includes/admin/class-settings.php:374
+msgid "Next Prev Buttons :"
+msgstr ""
+
+#: includes/admin/class-settings.php:375
+msgid "Show/ hide next-previous  buttons in the podcast episode player."
+msgstr ""
+
+#: includes/admin/class-settings.php:382
+msgid "Hide Bottom Player :"
+msgstr ""
+
+#: includes/admin/class-settings.php:383
+msgid "Show/ hide the footer bottom fixed player. (You can play the radio station by hiding footer player.)"
+msgstr ""
+
+#: includes/admin/class-settings.php:394
+msgid "Podcast listing color"
+msgstr ""
+
+#: includes/admin/class-settings.php:400
+msgid "Listing background color :"
+msgstr ""
+
+#: includes/admin/class-settings.php:401
+msgid "Customize the podcast listing background color."
+msgstr ""
+
+#: includes/admin/class-settings.php:407
+msgid "Listing button color :"
+msgstr ""
+
+#: includes/admin/class-settings.php:408
+msgid "Customize the listing button color."
+msgstr ""
+
+#: includes/admin/class-settings.php:414
+msgid "Footer Player Color"
+msgstr ""
+
+#: includes/admin/class-settings.php:420
+msgid "Footer player background :"
+msgstr ""
+
+#: includes/admin/class-settings.php:421
+msgid "Customize the background color of the footer player."
+msgstr ""
+
+#: includes/admin/class-settings.php:427
+msgid "Footer player button color :"
+msgstr ""
+
+#: includes/admin/class-settings.php:428
+msgid "Customize the footer player button color."
+msgstr ""
+
+#: includes/admin/class-settings.php:449, includes/admin/class-settings.php:460
+msgid "Podcast Box Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:449
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/views/import-podcasts.php:52
+msgid "Start Import"
+msgstr ""
+
+#: includes/admin/views/import-podcasts.php:77
+msgid "See all Podcasts"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:26
+msgid "Podcast Show :"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:48
+msgid "Select the podcast show."
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:56
+msgid "Episode File :"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:68
+msgid "Enter the episode audio URL or select an audio file."
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:76
+msgid "Duration :"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:81
+msgid "Enter the episode duration in seconds. This field will be automatically generated once the episode file is selected."
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:90
+msgid "Episode Thumbnail :"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:94, includes/admin/views/metabox.php:43
+msgid "Enter the logo image url or select an image by clicking the plus icon."
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:104
+msgid "The Episode Thumbnail Image."
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:112
+msgid "Episode Link :"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:117
+msgid "Enter the source URL of the episode."
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:125
+msgid "Episode Number :"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:132
+msgid "Enter the episode number."
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:140
+msgid "Season Number :"
+msgstr ""
+
+#: includes/admin/views/metabox-episode.php:147
+msgid "Enter the season number."
+msgstr ""
+
+#: includes/admin/views/metabox.php:26
+msgid "Feed URL :"
+msgstr ""
+
+#: includes/admin/views/metabox.php:31
+msgid "Enter the URL of the podcast feed."
+msgstr ""
+
+#: includes/admin/views/metabox.php:39
+msgid "Podcast Logo :"
+msgstr ""
+
+#: includes/admin/views/metabox.php:51
+msgid "The podcast logo."
+msgstr ""
+
+#: includes/admin/views/metabox.php:60
+msgid "Publisher Name :"
+msgstr ""
+
+#: includes/admin/views/metabox.php:65
+msgid "Enter the name of the podcast publisher.."
+msgstr ""
+
+#: includes/admin/views/metabox.php:73
+msgid "Publisher Email :"
+msgstr ""
+
+#: includes/admin/views/metabox.php:78
+msgid "Enter the email of the podcast publisher.."
+msgstr ""
+
+#: includes/admin/views/metabox.php:86
+msgid "Podcast Website :"
+msgstr ""
+
+#: includes/admin/views/metabox.php:91
+msgid "Enter the podcast official website URL."
+msgstr ""
+
+#: includes/admin/views/metabox.php:99
+msgid "Itunes URL :"
+msgstr ""
+
+#: includes/admin/views/metabox.php:104
+msgid "Enter the podcast official itunes url."
+msgstr ""
+
+#: includes/admin/views/promo.php:26
+msgid "Unlock the PRO features"
+msgstr ""
+
+#: includes/admin/views/promo.php:72
+msgid "50% OFF"
+msgstr ""
+
+#: includes/admin/views/promo.php:73
+msgid "LIMITED TIME ONLY"
+msgstr ""
+
+#: includes/admin/views/promo.php:75
+msgid "GET PRO"
+msgstr ""
+
+#: includes/admin/views/get-started/faq.php:1
+msgid "FAQ"
+msgstr ""
+
+#: includes/admin/views/get-started/import.php:9
+msgid "Import podcasts page"
+msgstr ""
+
+#: includes/admin/views/get-started/index.php:9
+msgid "Plugin Setup"
+msgstr ""
+
+#: includes/admin/views/get-started/index.php:17, includes/admin/views/get-started/shortcodes.php:5
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin/views/get-started/index.php:21
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: includes/admin/views/get-started/new.php:1
+msgid "See what's new in the last updates."
+msgstr ""
+
+#: includes/admin/views/get-started/setup.php:1
+msgid "Plugin Setup Guide"
+msgstr ""
+
+#: includes/admin/views/get-started/setup.php:11
+msgid "Podcasts Page"
+msgstr ""
+
+#: includes/admin/views/get-started/setup.php:12
+msgid "Automatically created podcasts archive page."
+msgstr ""
+
+#: includes/admin/views/get-started/setup.php:14
+msgid ""
+"On this page, the visitors will see their country’s podcasts, If ip based listing is tunred on & the visitor country's podcasts exists on the site.\n"
+"        Otherwise the visitors will see all the podcasts, those you have added or imported."
+msgstr ""
+
+#: includes/admin/views/get-started/setup.php:19
+msgid "The next step is to add new or import podcasts."
+msgstr ""
+
+#: includes/admin/views/get-started/setup.php:21
+msgid "Add new podcasts & import podcasts menu"
+msgstr ""
+
+#: includes/admin/views/get-started/shortcodes.php:7
+msgid "This plugin provides the following shortcodes:"
+msgstr ""
+
+#: includes/admin/views/get-started/widget.php:18
+msgid "Podcast player sidebar widget"
+msgstr ""
+
+#: includes/admin/views/get-started/widget.php:27
+msgid "Podcast player sidebar widget output"
+msgstr ""
+
+#: includes/admin/views/get-started/widget.php:41
+msgid "Country list sidebar widget"
+msgstr ""
+
+#: includes/admin/views/get-started/widget.php:47
+msgid "Country list sidebar widget output"
+msgstr ""

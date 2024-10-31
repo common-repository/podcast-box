@@ -1,0 +1,34 @@
+.podcast-box-settings-page {
+  --wp-military-settings-primary-color: #5996FF;
+
+  .search_style {
+    img {
+      max-width: 300px !important;
+    }
+  }
+
+}
+
+.settings-disabled {
+
+  & > * {
+    opacity: .6;
+  }
+
+  .wpmilitary-slider, .wp-picker-container, select {
+    pointer-events: none;
+  }
+
+  &:after {
+    content: 'PRO';
+    position: absolute;
+    left: 0;
+    background: var(--wp-military-settings-primary-color);
+    color: #fff;
+    padding: 1px 7px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 11px;
+  }
+
+}

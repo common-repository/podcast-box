@@ -1,0 +1,23 @@
+[id*="_podcast_box_"] .widget-title h3 {
+  display: flex;
+  align-items: center;
+
+  i {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+
+    background: #5996FF;
+    color: #fff;
+    padding: 3px;
+    border-radius: 20px;
+    margin-right: 5px;
+
+  }
+
+}
+
+.podcast_box_player_widget {
+  display: flex;
+  flex-flow: column;
+}

@@ -1,0 +1,164 @@
+/*---posts table---*/
+th#id {
+  width: 50px;
+}
+
+td.id{
+  font-weight: 600;
+}
+
+
+.logo-metabox-actions {
+  display: flex;
+
+  & > * {
+    margin: 3px;
+  }
+
+  a.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.button-link-delete {
+      margin-left: 3px;
+    }
+  }
+}
+
+.logo-metabox-preview {
+  margin-top: 5px;
+  width: 100px;
+
+  &[src=""] {
+    display: none;
+  }
+}
+
+.logo-metabox-preview[src=""] {
+  display: none;
+}
+
+/*--- action metabox ----*/
+.podcast_box_actions_metabox{
+  .form-field{
+    display: flex;
+    flex-flow: column;
+
+    label{
+      font-weight: bold;
+      margin: 15px 0;
+    }
+  }
+
+  #major-publishing-actions {
+    display: flex;
+    flex-wrap: wrap;
+
+    #delete-action {
+      width: 100%;
+    }
+
+    #publishing-action {
+      flex: 1;
+    }
+  }
+}
+
+#podcast_box_episode_actions {
+  .inside {
+    margin: 0;
+    padding: 0;
+  }
+
+  #delete-action {
+    width: auto;
+  }
+}
+
+/**/
+#podcast_box_actions {
+  #major-publishing-actions {
+    margin: 0 -12px -12px;
+  }
+}
+
+/**---- slider ------**/
+.wpmilitary-slider {
+  width: 350px;
+  position: relative;
+  height: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #555;
+  display: flex;
+
+  input {
+    display: none;
+  }
+
+  &-handle {
+    position: absolute;
+    width: 3em;
+    height: 1.6em;
+    margin-top: -5px;
+    margin-left: -15px;
+    text-align: center;
+    line-height: 1.6em;
+    background: deeppink;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .ui-slider-range {
+    background: deeppink;
+    border-radius: 5px;
+  }
+
+  &-reset {
+    position: absolute;
+    right: 5px;
+    top: -4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+.frequency_interval_slider {
+  width: 90%;
+  margin: auto;
+  background: #F4F4F5;
+  margin-bottom: 30px;
+}
+
+/*-- latest episodes metabox --*/
+#latest_episodes_metabox {
+  .latest-episodes {
+    a {
+      display: block;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 7px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+
+  .latest-episodes-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      display: flex;
+      align-items: center;
+
+      i {
+        margin: 0 5px 0 0;
+      }
+    }
+  }
+}
